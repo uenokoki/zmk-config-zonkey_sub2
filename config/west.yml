@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: kureyakey
       url-base: https://github.com/kureyakey
-    - name: caksoylar  # <-- new entry
+    - name: caksoylar 
       url-base: https://github.com/caksoylar  
   projects:
     - name: zmk
