@@ -218,11 +218,11 @@
             bindings = <
 &kp CAPSLOCK    &kp GRAVE     &trans        &trans            &trans                                          &trans         &trans         &kp MINUS    &kp TILDE          &kp NON_US_BACKSLASH
 &kp TAB         &trans        &trans        &trans            &trans       &trans                &kp JP_EISU  &trans         &trans         &kp AT_SIGN  &kp LEFT_BRACKET   &kp ENTER
-&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans                &trans       &kp JP_KANA    &kp SEMICOLON  &kp COLON    &kp RIGHT_BRACKET  &kp ENTER
+&kp LEFT_SHIFT  &trans        &trans        &trans            &trans       &trans                &trans       &kp JP_KANA    &kp SEMICOLON  &kp COLON    &kp RIGHT_BRACKET  &kp SLASH
 &mt LCTL ESC    &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &lt 2 SPACE  &lt 1 INT_MUHENKAN                 &kp BACKSPACE  &kp ENTER                                                            &kp DEL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp LS(RIGHT_ARROW) LS(LEFT_ARROW)>;
         };
 
         layer_2 {
